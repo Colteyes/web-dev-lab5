@@ -1,19 +1,44 @@
-#site_nav{
-  border: 10px;
-  border-style: solid;
-  border-color: black;
-  
+html, body{
+  height: 100%;
+  margin: 0;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.site_nav1{
+  background-color: aqua;
+  
+}
+table{
+  width: 100px;
+}
+table, td, th{
+  border: 5px solid black;
+}
+#form_submission{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  margin: 0 auto;
+}
 #site_head{
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   align-items: center;
 }
-#site_footer{
+.site_footer{
+  margin-top: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  justify-content: flex-end;
+  color: gray;
 }
