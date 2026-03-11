@@ -1,15 +1,19 @@
-.site_nav{
-    border: 10px;
-    border-color: black;
+#site_nav{
+  border: 10px;
+  border-style: solid;
+  border-color: black;
+  
 }
-.site_head{
+
+#site_head{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
+  align-items: center;
 }
-.site_footer{
+#site_footer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  
 }
