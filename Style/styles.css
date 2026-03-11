@@ -1,11 +1,15 @@
 .site_nav{
-
+    border: 10px;
+    border-color: black;
 }
 .site_head{
+  display: flex;
   justify-content: center;
-  
+  flex-direction: row;
 }
-.h1_head{
-  align-self: center;
-  order: 1;
+.site_footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
